@@ -13,6 +13,7 @@ import customImage from './objects/customImage';
 import bodyText from './objects/bodyText';
 import customCode from './objects/customCode';
 import excerptText from './objects/excerptText';
+import featured from './documents/featured';
 
 export default createSchema({
   name: 'default',
@@ -21,7 +22,7 @@ export default createSchema({
     blog,
     author,
     category,
-
+    featured,
     // objects
     customImage,
     bodyText,
