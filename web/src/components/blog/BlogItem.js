@@ -27,7 +27,7 @@ function BlogItem({ title, path, image, publishedAt, categories }) {
       <ParagraphText className="categoriesText">
         {categories.map((item, index) => (
           <span key={item.slug.current}>
-            <Link to={`/categories${item.slug.current}`}>{item.title}</Link>
+            <Link to={`/categories/${item.slug.current}`}>{item.title}</Link>
             {index < categories.length - 1 ? ', ' : ''}
           </span>
         ))}
