@@ -11,11 +11,12 @@ function HeroSection() {
       <div className="container">
         <div className="hero__wrapper">
           <div className="left">
-            <h1 className="hero__heading">Explore Pectus Excavatum</h1>
+            <h1 className="hero__heading">Explore Pectus Plus</h1>
             <ParagraphText className="hero__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              perspiciatis, voluptatum autem vel quas nesciunt earum aspernatur.
-              Dolorum, modi ipsam?
+              PectusPlus Blog is a site for all things Pectus Excavatum related.
+              Blog posts will dive deep on the review of published medical
+              journals, stretching/mobility work, weightlifting routines, and
+              breathing techniques.
             </ParagraphText>
             <Button to="/blogs" tag={Link} className="hero__button">
               Explore Blogs
@@ -24,7 +25,7 @@ function HeroSection() {
           <div className="right">
             <StaticImage
               className="hero__image"
-              src="../../images/press.jpeg"
+              src="../../images/woods.jpeg"
               alt="press workout"
               placeholder="blurred"
               objectPosition="50% 30%"

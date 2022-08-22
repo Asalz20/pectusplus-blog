@@ -42,10 +42,10 @@ function BlogList({ data, pageContext }) {
   const blogs = data.allSanityBlog.nodes;
   return (
     <>
-      <SEO title="Blogs" />;
+      <SEO title="Blogs" />
       <PageSpace top={80} bottom={100}>
         <div className="container">
-          <PageHeader title="All Blog Posts" description="Lorem15" />
+          <PageHeader title="All Blog Posts" />
           <BlogGrid blogs={blogs} />
           {numberOfPages > 1 && (
             <Pagination

@@ -34,7 +34,7 @@ function CategoryList({ data, pageContext }) {
       <SEO title="Categories" />
       <PageSpace top={80} bottom={100}>
         <div className="container">
-          <PageHeader title="All Categories" description="Lorem20" />
+          <PageHeader title="All Categories" />
           <CategoryGrid categories={categories} />
           {numberOfPages > 1 && (
             <Pagination

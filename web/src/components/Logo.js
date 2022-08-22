@@ -1,11 +1,17 @@
 import React from 'react';
-import { GrTechnology } from 'react-icons/gr';
+import { StaticImage } from 'gatsby-plugin-image';
 import LogoStyles from '../styles/LogoStyles';
 
 function Logo() {
   return (
     <LogoStyles to="/">
-      <GrTechnology />
+      <StaticImage
+        className="hero__image"
+        src="../images/pectus-plus-logo.png"
+        alt="press workout"
+        placeholder="blurred"
+        objectPosition="50% 30%"
+      />
     </LogoStyles>
   );
 }
