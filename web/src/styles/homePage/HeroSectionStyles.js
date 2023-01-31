@@ -19,7 +19,12 @@ export const HeroSectionStyles = styled.div`
       left: 0;
       width: 50%;
       height: 100%;
-      background: linear-gradient(135deg, #62d7aa, #125f55);
+      background: linear-gradient(
+        147deg,
+        rgba(93, 108, 118, 1) 62%,
+        rgba(189, 189, 189, 1) 64%
+      );
+
       z-index: -1;
     }
     .left {

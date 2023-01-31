@@ -7,8 +7,8 @@ function Logo() {
     <LogoStyles to="/">
       <StaticImage
         className="hero__image"
-        src="../images/pectus-plus-logo.png"
-        alt="press workout"
+        src="../images/alex-logo.png"
+        alt="Pectus plus logo"
         placeholder="blurred"
         objectPosition="50% 30%"
       />
