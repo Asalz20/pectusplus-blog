@@ -21,10 +21,9 @@ export const HeroSectionStyles = styled.div`
       height: 100%;
       background: linear-gradient(
         147deg,
-        rgba(93, 108, 118, 1) 62%,
-        rgba(189, 189, 189, 1) 64%
+        rgba(93, 108, 118, 0.6) 63%,
+        rgba(189, 189, 189, 0.2) 83%
       );
-
       z-index: -1;
     }
     .left {
