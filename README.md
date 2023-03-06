@@ -16,7 +16,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Asalz20/pectusplus-blog">
-    <img src="./web/src/images/alex-logo.png" alt="Logo" width="80" height="80">
+    <img src="./web/src/images/alex-logo.png" alt="Logo" width="120" height="80">
   </a>
 
   <h3 align="center">Pectus Plus Blog</h3>
