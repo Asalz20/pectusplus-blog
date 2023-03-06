@@ -111,7 +111,13 @@ npm install npm@latest -g
    ```sh
    npm install
    ```
-3. In order to spin up your own sanity backend, head over to [Sanity.io](sanity-url) and follow their Getting started documentation.
+3. In order to spin up your own sanity backend, head over to [Sanity.io](https://sanity.io/) and follow their Getting started documentation.
+
+4. Run the following in the web directory to start the development server
+
+```sh
+   npm start
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,7 +164,7 @@ Alex Salazar - [@alexsalazarr\_](https://twitter.com/alexsalazarr_) - asalazar.d
 
 ## Acknowledgments
 
-Giving credit where credit is due, shoutout to the following!
+Giving credit where credit is due! Thank you to:
 
 - [Img Shields](https://shields.io)
 - [GitHub Pages](https://pages.github.com)
