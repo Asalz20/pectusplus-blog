@@ -10,7 +10,7 @@
 -->
 
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/alex-salazar-dev/]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -47,7 +47,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -78,8 +77,7 @@ Pectus Plus Blog is a natural extension of Pectus Plus, offering a deeper level 
 
 The following are major frameworks/libraries used to bootstrap this project.
 
-- [![React][react.js]][react-url]
-- [![Gatsby][gatsby.js]][gatsby-url]
+[![JavaScript][javascript-shield]][javascript-url] [![React][react.js]][react-url] [![Gatsby][gatsby.js]][gatsby-url] [![CSS][css-shield]][css-url] [![Sanity][sanity-shield]][sanity-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,34 +97,33 @@ npm --v
 
 If it has not yet been installed, follow the appropriate steps to do so.
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+```sh
+npm install npm@latest -g
+```
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Asalz20/pectusplus-blog.git
    ```
 2. Install NPM packages at root, web, and studio directory
    ```sh
    npm install
    ```
-3. In order to spin up your own sanity backend, head over to [!Sanity.io] [sanity-url] and follow their Getting started documentation.
+3. In order to spin up your own sanity backend, head over to [Sanity.io](sanity-url) and follow their Getting started documentation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+<!-- ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- ROADMAP -->
 
@@ -153,7 +150,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Alex Salazar - [@your_twitter](https://twitter.com/alexsalazarr_) - asalazar.dev@gmail.com
+Alex Salazar - [@alexsalazarr\_](https://twitter.com/alexsalazarr_) - asalazar.dev@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,14 +172,18 @@ Giving credit where credit is due, shoutout to the following!
 
 [issues-shield]: https://img.shields.io/github/issues/Asalz20/pectusplus-blog.svg?style=for-the-badge
 [issues-url]: https://github.com/Asalz20/pectusplus-blog/issues
-[license-shield]: https://img.shields.io/github/license/Asalz10/pectusplus-blog.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Asalz20/pectusplus-blog.svg?style=for-the-badge
 [license-url]: https://github.com/Asalz20/pectusplus-blog/blob/main/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=fffff
 [linkedin-url]: https://www.linkedin.com/in/alex-salazar-dev/
 [product-screenshot]: ./web/src/images/pectus-plus-blog.png/
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [react-url]: https://reactjs.org/
-[gatsby.js]: https://img.shields.io/badge/Gatsby-20232A?style=for-the-badge&logo=gatsby&logoColor=663399
-[react-url]: https://reactjs.org/
-[sanity.io]: https://img.shields.io/badge/-Stripe-FC4C02?style=for-the-badge&logo=stripe&logoColor=FC4C02
+[gatsby.js]: https://img.shields.io/badge/Gatsby-BC77C6?style=for-the-badge&logo=gatsby&logoColor=663399
+[gatsby-url]: https://www.gatsbyjs.com/docs/
+[sanity-shield]: https://img.shields.io/badge/-Sanity-FC4C02?style=for-the-badge&logo=stripe&logoColor=white
 [sanity-url]: https://sanity.io/
+[javascript-shield]: https://img.shields.io/badge/-JavaScript-323231?style=for-the-badge&logo=javascript&logoColor=f7df1e
+[javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[css-shield]: https://img.shields.io/badge/-CSS-AFB3B5?style=for-the-badge&logo=css3&logoColor=1572B6
+[css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
