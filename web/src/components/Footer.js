@@ -12,10 +12,12 @@ function Footer() {
       <div className="container">
         <Logo />
         <ParagraphText className="footer__text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam odit
-          reprehenderit veniam cupiditate sapiente, corrupti ipsum adipisci
-          sint. Tempore modi consequatur maiores cumque molestiae amet
-          voluptatem voluptas harum temporibus aut?
+          We hope you found the information on Pectus Plus helpful and
+          informative. Our mission is to provide accurate and reliable resources
+          for individuals with Pectus Excavatum and their families. If you have
+          any suggestions for topics you'd like us to cover or feedback on how
+          we can improve, please don't hesitate to reach out. Thank you for
+          visiting our site!
         </ParagraphText>
         <ul className="footer__menuList">
           {menu.map((item) => (
